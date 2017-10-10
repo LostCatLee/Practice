@@ -148,8 +148,9 @@ Other Style Guides
     ```
 
   - 참조:
-    var: '변수'. 언제든지 바뀔 수 있는 수. 대부분의 프로그래밍 언어와 달리 함수 수준(function-level)범위를 가짐.<br>
-    예제(출처 http://chanlee.github.io/2013/12/10/javascript-variable-scope-and-hoisting/)<br>
+    var: '변수'. 언제든지 바뀔 수 있는 수. 대부분의 프로그래밍 언어와 달리 함수 수준(function-level)범위를 가짐.
+    
+      > 예제(출처 http://chanlee.github.io/2013/12/10/javascript-variable-scope-and-hoisting/)
     
     *함수수준범위예시*
     
