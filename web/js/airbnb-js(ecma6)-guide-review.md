@@ -147,21 +147,21 @@ Other Style Guides
     console.log(b); // ReferenceError
     ```
 
-  - 참조:
-    var: '변수'. 언제든지 바뀔 수 있는 수. 대부분의 프로그래밍 언어와 달리 함수 수준(function-level)범위를 가짐.
+  - 참조
+    var:'변수'. 언제든지 바뀔 수 있는 수. 대부분의 프로그래밍 언어와 달리 함수 수준(function-level)범위를 가짐.
     
-      > 예제(출처 http://chanlee.github.io/2013/12/10/javascript-variable-scope-and-hoisting/)
+    > 예제(출처 http://chanlee.github.io/2013/12/10/javascript-variable-scope-and-hoisting/)
     
-    *함수수준범위예시*
+    *함수 수준 범위 예시*
     
-    ```javascript
+    ```
     var name = "Richard";
     
     function showName() {
-      var name="Jack";//지역변수. showName()함수에서만 접근 가능
-      console.log(name);//Jack
+      var name = "Jack"; //지역변수. showName()함수에서만 접근 가능
+      console.log(name); //Jack
     }
-    console.log(name);//Richard. 전역변수
+    console.log(name); //Richard. 전역변수
     ```
 
 **[⬆ back to top](#table-of-contents)**
