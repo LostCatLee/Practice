@@ -149,16 +149,20 @@ Other Style Guides
 
   - 참조:
     var: 말그대로변수언제든지바뀔수있는수대부분의프로그래밍언어와달리함수수준functionlevel범위를가짐<br>
-    예제출처http://chanlee.github.io/2013/12/10/javascript-variable-scope-and-hoisting/<br>
-    *함수수준범위예시*
+    예제(출처 http://chanlee.github.io/2013/12/10/javascript-variable-scope-and-hoisting/)<br>
+    
+    *함수수준범위예시*
+    
     ```javascript
     var name="Richard";
+    
     function showName(){
       var name="Jack";//지역변수;showName()함수에서만접근가능
       console.log(name);//Jack
     }
     console.log(name);//Richard;전역변수
     ```
+
 **[⬆ back to top](#table-of-contents)**
 
 ## Objects
